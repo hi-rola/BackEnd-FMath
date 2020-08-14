@@ -1,0 +1,14 @@
+server:
+    port: 8888
+
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/prueba4
+        username: rolando
+        password: rolas123
+    jpa:
+        properties:
+            hibernate:
+                temp:
+                    use_jdbc_metadata_defaults: false
+        database-platform: org.hibernate.dialect.PostgreSQL9Dialect
