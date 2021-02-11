@@ -3,7 +3,7 @@ server:
 
 spring:
     datasource:
-        url: jdbc:postgresql://localhost:5432/prueba4
+        url: jdbc:postgresql://localhost:5432/Fmath
         username: rolando
         password: rolas123
     jpa:

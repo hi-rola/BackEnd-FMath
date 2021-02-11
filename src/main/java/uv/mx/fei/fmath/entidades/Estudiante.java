@@ -162,15 +162,6 @@ public class Estudiante implements Serializable {
         this.numeropersonal = numeropersonal;
     }
 
-    @XmlTransient
-    public Collection<Puntajeestudiante> getPuntajeestudianteCollection() {
-        return puntajeestudianteCollection;
-    }
-
-    public void setPuntajeestudianteCollection(Collection<Puntajeestudiante> puntajeestudianteCollection) {
-        this.puntajeestudianteCollection = puntajeestudianteCollection;
-    }
-
     @Override
     public int hashCode() {
         int hash = 0;

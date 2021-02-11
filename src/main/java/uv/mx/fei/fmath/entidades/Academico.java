@@ -160,15 +160,6 @@ public class Academico implements Serializable {
         this.estatus2 = estatus2;
     }
 
-    @XmlTransient
-    public Collection<Estudiante> getEstudianteCollection() {
-        return estudianteCollection;
-    }
-
-    public void setEstudianteCollection(Collection<Estudiante> estudianteCollection) {
-        this.estudianteCollection = estudianteCollection;
-    }
-
     @Override
     public int hashCode() {
         int hash = 0;
